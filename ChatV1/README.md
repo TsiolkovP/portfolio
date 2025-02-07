@@ -3,7 +3,9 @@
 
 Протокол указан в protocol.text
 
-Команды для сборки: g++ -o client mmain.cpp ProtocolCommand.cpp ServerListener.cpp ExecutingCommand.cpp -O2 g++ -o server main.cpp ProtocolCommand.cpp ThreadSafeMap.cpp ConnectionsListener.cpp CommandStorage.cpp -O2
+Команды для сборки: 
+g++ -o client mmain.cpp ProtocolCommand.cpp ServerListener.cpp ExecutingCommand.cpp -O2 
+g++ -o server main.cpp ProtocolCommand.cpp ThreadSafeMap.cpp ConnectionsListener.cpp CommandStorage.cpp -O2
 
 Чат реализован согласно протоколу, приложенному к заданию. Чат работает в UTF-8 кодировке, т.е. при передаче сообщений английский символ занимает один байт, русский символ два байта.
 
