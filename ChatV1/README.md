@@ -1,7 +1,8 @@
 #Протокол от стороннего разработчика, я его не писал. Гит: https://github.com/kenyaver/chat 
-#Реализация, где на сервере на каждое подключение клиента выделяется поток. #Клиент-серверное ПО ZoomerChat.
+#Реализация, где на сервере на каждое подключение клиента выделяется поток. 
+#Клиент-серверное ПО ZoomerChat.
 
-Протокол указан в protocol.text
+Протокол указан в protocol.txt
 
 Команды для сборки: 
 g++ -o client mmain.cpp ProtocolCommand.cpp ServerListener.cpp ExecutingCommand.cpp -O2 
